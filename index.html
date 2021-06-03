@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/49034cc222.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <form>
+    <table align="center" border="1" border="solid" border-color="red">
+      <tbody>
+        <tr style="border-color:red";>
+          <td>
+              <div class="blocks">
+              <label for="firstName"><strong>Name<span class="required">*</span></strong></label><br>
+              <input type="text" name="firstName" id="firstName" placeholder="FirstName"required>&nbsp &nbsp
+
+              <input type="text" name="lastName" id="lastName" placeholder="LastName"required>
+            </div>
+            <div class="blocks">
+              <label for="Email"><strong>Email<span class="required">*</span></strong></label><br>
+              <input type="email" name="Email" id="Email" required>
+            </div>
+            <div class="blocks">
+              <label for="experience"><strong>Your Experience</strong><span class="required">*</span></label><br><br>
+                          <label for="ratingvalue">Very Unsatisfied</label>
+                <input type="radio" name="ratingvalue" id="ratingvalue" value="ratingvalue">
+                <label for="ratingvalue">Unsatisfied</label>
+                <input type="radio" name="ratingvalue" id="ratingvalue" value="ratingvalue">
+                <label for="ratingvalue">Neutral</label>
+                <input type="radio" name="ratingvalue" id="ratingvalue" value="ratingvalue">
+                <label for="ratingvalue">Satisfied</label>
+                <input type="radio" name="ratingvalue" id="ratingvalue" value="ratingvalue">
+                <label for="ratingvalue">Very Satisfied</label>
+                <input type="radio" name="ratingvalue" id="ratingvalue" value="ratingvalue">
+
+            </div>
+            <p>Overall, how would you rate your experience with us?</p>
+            <div class="blocks">
+              <label><strong>How satisfied are you with <span class="required">*</span></strong></label>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Description</td>
+                    <td>Very Unsatisfied</td>
+                    <td>Unsatisfied</td>
+                    <td>Neutral</td>
+                    <td>Satisfied</td>
+                    <td>Very Satisfied</td>
+                  </tr>
+                  <tr>
+                    <td><span class="title">Purchase</span></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                  </tr>
+                  <tr>
+                    <td><span class="title">Service</span></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                  </tr>
+                  <tr>
+                    <td><span class="title">Company Overall</span></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="blocks">
+              <label><strong>How likely are you to <span class="required">*</span></strong></label>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Description</td>
+                    <td>Very Unlikely</td>
+                    <td>Unlikely</td>
+                    <td>Neutral</td>
+                    <td>Likely</td>
+                    <td>Very Likely</td>
+                  </tr>
+                  <tr>
+                    <td><span class="title">Buy from us again</span></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                  </tr>
+                  <tr>
+                    <td><span class="title">Recommend our product to others</span></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                  </tr>
+                  <tr>
+                    <td><span class="title">Recommend our company to others</span></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                    <td><input type="radio" name="ratingvalue" value=""></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="blocks">
+              <label><strong>Additional comments or suggestions</strong></label><br>
+              <textarea name="Comments" rows="8" cols="80" border-color="grey"></textarea>
+            </div><br>
+            <button type="submit">Submit</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </form>
+</body>
+</html>
